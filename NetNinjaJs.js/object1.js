@@ -29,8 +29,10 @@
 
 // user.logBlogs();
 
-// Using math method to generate random numbers
-const random = Math.random();
+ // Using math method to generate random numbers
+// const random = Math.random();
 
-console.log(random);
-console.log(Math.round(random * 100));
+// console.log(random);
+// console.log(Math.round(random * 100));
+
+const booklist = document.querySelector('#book-list');
