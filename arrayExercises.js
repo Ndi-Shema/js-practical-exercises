@@ -14,13 +14,24 @@
 // let arr = [1,2,-5,5];
 // console.log(sum(arr));
 
-function sum (numbers){
-    var total = 0;
+// function sum (numbers){
+//     var total = 0;
 
-for (var i=0; i<numbers.length; i++){
-    total += numbers[i] ;
-}
+// for (var i=0; i<numbers.length; i++){
+//     total += numbers[i] ;
+// }
 
-return total;
-}
-console.log(sum([1,2,3,4]));
+// return total;
+// }
+// console.log(sum([1,2,3,4]));
+function strngI(name){
+    let word ="";
+    for (let i =0; i<name.length; i++){
+        if (([i]%2) !==0) {
+            word += name.charAt(i);
+            console.log(word);
+        }
+    }
+
+}const myString= "hello, world"
+strngI(myString);
