@@ -8,17 +8,25 @@
 
 
 function solution(str, ending){
-    // TODO: complete
-    
-    
-    for (let i = 0; i<=str.length - ending.length; i++){
-      if(str.slice(-ending.length) === ending){
-            return true;
-      }
-    }
-    
+  // TODO: complete
+  
+  if (ending.length > str.length){
     return false;
+  }
+  
+  for (let i = 0; i<=str.length - ending.length; i++){
+    if(str.slice(i) === ending){
+          return true;
+    }
     
   }
   
-  console.log(solution('shema', 'ja'));
+  return false;
+  
+}
+
+// add another condition to check for the empty part of the endings.
+if (ending === '') {
+  return true;
+}
+console.log(solution('shema', 'ja'));
