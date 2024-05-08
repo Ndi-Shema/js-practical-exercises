@@ -9,6 +9,17 @@
 // Note: for this kata y isn't considered a vowel.
 
 
+// ANOTHER ALTERNATIVE
+
+// const vowels = 'aeiou';
+
+// function disemvowel(str) {
+//   return str
+//     .split('')
+//     .filter(letter => !vowels.includes(letter.toLowerCase()))
+//     .join('');
+// }
+
 function disemvowel(str) {
   
     const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
