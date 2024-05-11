@@ -12,7 +12,7 @@
 
 
 function neutralise(s1, s2) {
-    // Here be dragons!
+    // Here be dragons! yipee
     var sign = "";
     for (let i = 0; i < s1.length; i++){
        
