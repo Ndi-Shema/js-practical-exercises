@@ -33,5 +33,5 @@ function strngI(name){
         }
     }
 
-}const myString= "hello, world"
+}const myString= "If the array does not contain any numbers then you should return 0."
 strngI(myString);
