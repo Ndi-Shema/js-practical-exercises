@@ -25,7 +25,7 @@
 // }
 // console.log(sum([1,2,3,4]));
 function strngI(name){
-    let word =""; //store the char at the odd indices
+    let word =""; //store the char at the odd indices only
     for (let i =0; i<name.length; i++){
         if (([i]%2) !==0) {
             word += name.charAt(i);
