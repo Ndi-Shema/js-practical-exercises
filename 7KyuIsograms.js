@@ -29,7 +29,7 @@ function isIsogram(str) {
     str = str.toLowerCase();
    
    const charCount = {};
-   
+   //using the test method to check the regex
    for (const char of str){
      if (/[a-z]/.test(char)){
        if (charCount[char]){
